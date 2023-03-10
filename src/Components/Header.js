@@ -11,7 +11,7 @@ const Header = () => {
           <div className="row">
             <div className="col-6">
               <p className="text-white mb-0">
-                Free shipping Over 999 & Free Returns
+              Expert doorstep service, book now for convenience!
               </p>
             </div>
             <div className="col-6">
@@ -29,9 +29,9 @@ const Header = () => {
         <div className="container-xxl">
           <div className="row align-items-center">
             <div className="col-2">
-              <h2 className="text-white">
-                <Link>Infoway.</Link>
-              </h2>
+              <h3 className="text-white">
+                <Link to="/">Smart Serve Hub.</Link>
+              </h3>
             </div>
             <div className="col-5">
               <div className="input-group">
@@ -105,18 +105,18 @@ const Header = () => {
                     </button>
                     <ul className="dropdown-menu">
                       <li>
-                        <Link className="dropdown-item text-white" to="">
-                          Action
+                        <Link className="dropdown-item text-white" to="/Mobile">
+                          Mobile
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item text-white" to="">
-                          Another action
+                        <Link className="dropdown-item text-white" to="/Laptop">
+                          Laptop
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item text-white" to="">
-                          Something else here
+                        <Link className="dropdown-item text-white" to="/Led">
+                        LED
                         </Link>
                      </li>
                     </ul>

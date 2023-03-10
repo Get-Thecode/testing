@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <p className="text-center mb-0 text-white">&copy; {new Date().getFullYear()}; Made by Ankur</p>
+              <p className="text-center mb-0 text-white">&copy; {new Date().getFullYear()}; Infoway Technology</p>
             </div>
           </div>
         </div>
